@@ -6,7 +6,9 @@ This was created during my time as a student at Code Chrysalis
 # How to use
 
 お買い物リスト作成アプリです
+
 レシピブックとしても使えます
+
 いくつかのレシピを選んだ後、すぐに材料のお買い物リストが作れます
 
 ## Screen
