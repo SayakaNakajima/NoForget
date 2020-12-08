@@ -4,6 +4,7 @@
         "Title": "豆苗サラダ",
         "Img": "",
         "Time": 15,
+        "Introduction": "簡単に作れてたくさん豆苗が食べられる！",
         "Ingridients": [
             {
                 "Id": "1",
@@ -68,6 +69,7 @@
         "Title": "デパ地下風かぼちゃサラダ",
         "Img": "",
         "Time": 25,
+        "Introduction": "家でもできるデパ地下グルメ！",
         "Ingridients": [
             {
                 "Id": "12",
@@ -84,25 +86,31 @@
             {
                 "Id": "13",
                 "Name": "クリームチーズ",
-                "Category": "seasoning",
+                "Category": "other",
                 "Amount": "大さじ1"
             },
             {
                 "Id": "14",
                 "Name": "ヨーグルト",
-                "Category": "seasoning",
+                "Category": "other",
                 "Amount": "大さじ1"
             },
             {
                 "Id": "15",
                 "Name": "レーズン",
-                "Category": "seasoning",
+                "Category": "other",
                 "Amount": "ひとつかみ（お好み）"
             },
             {
                 "Id": "16",
                 "Name": "スライスアーモンド",
-                "Category": "seasoning",
+                "Category": "other",
+                "Amount": "ひとつかみ（お好み）"
+            },
+            {
+                "Id": "30",
+                "Name": "生くるみ",
+                "Category": "other",
                 "Amount": "ひとつかみ（お好み）"
             }
         ],
@@ -121,7 +129,7 @@
             },
             {
                 "OrderNum": "4",
-                "Text": "最後にお好みでレーズン、スライスアーモンドも混ぜて完成！"
+                "Text": "最後にお好みでレーズン、くるみまたはスライスアーモンドも混ぜて完成！"
             }
         ]
     },
@@ -130,6 +138,7 @@
         "Title": "かぼちゃの煮付け",
         "Img": "",
         "Time": 50,
+        "Introduction": "切って並べて煮込むだけで簡単に出来上がり！",
         "Ingridients": [
             {
                 "Id": "3",
@@ -196,6 +205,7 @@
         "Title": "わかめとツナと長芋のサラダ",
         "Img": "",
         "Time": 20,
+        "Introduction": "我が家の鉄板副菜！ぬめぬめにぬめぬめ",
         "Ingridients": [
             {
                 "Id": "17",
@@ -268,6 +278,7 @@
         "Title": "にんじんしりしり",
         "Img": "",
         "Time": 45,
+        "Introduction": "しりしり（＝千切り）は面倒だけどたくさんできるのでいっぱい食べられる",
         "Ingridients": [
             {
                 "Id": "4",
@@ -324,6 +335,7 @@
         "Title": "無限ピーマン",
         "Img": "",
         "Time": 45,
+        "Introduction": "調理に困理がちなピーマンがいつまでも食べていられるようになる！",
         "Ingridients": [
             {
                 "Id": "4",

@@ -11,19 +11,16 @@ const db = require("../server/knex.js");
     let [recipe_ingridientCount] = await db("recipe_ingridient").count("*");
 
     await db("recipes").del;
-    for (const recipe of recipes) {
-      const r_id = recipe.Id;
-      const r_title = recipe.Title;
-      const r_img = recipe.Img;
-      const r_time = recipe.Time;
-
-      const result = await db("recipes").insert({
-        r_id,
-        r_title,
-        r_img,
-        r_time,
-      });
-    }
+    recipes.forEach(async (item) => {
+      let oneRecipe ={
+        r_id : item.Id,
+        r_title : item.Title,
+        r_img : item.Img,
+        r_time : item.Time,
+        r_introduction : item.Introduction
+      }
+      await db("recipes").insert(oneRecipe);
+    });
     
     //// Insert Procedures Data
     await db("procedures").del();
@@ -105,7 +102,7 @@ const db = require("../server/knex.js");
       });
     });
 
-    return console.log("Finished!");
+    console.log("Finished!");
 
   } catch (err) {
     console.error("Error inserting records", err);

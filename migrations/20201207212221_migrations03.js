@@ -6,6 +6,7 @@ exports.up = function(knex) {
             t.string("r_title").notNullable();
             t.string("r_img");
             t.string("r_time");
+            t.text("r_introduction");
         })
         .createTable("ingridients", (t) => {
             t.increments("i_id").index();
