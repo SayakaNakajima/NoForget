@@ -36,7 +36,7 @@ exports.up = function(knex) {
                 .inTable("recipes")
                 .notNull()
                 .onDelete("cascade");
-            t.string("p_order_num");
+            t.integer("p_order_num");
             t.text("p_text");
         })
         

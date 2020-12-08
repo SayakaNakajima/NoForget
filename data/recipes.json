@@ -7,43 +7,43 @@
         "Introduction": "簡単に作れてたくさん豆苗が食べられる！",
         "Ingridients": [
             {
-                "Id": "1",
+                "Id": 1,
                 "Name": "マヨネーズ",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "2",
+                "Id": 2,
                 "Name": "いりごま",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "3",
+                "Id": 3,
                 "Name": "しょうゆ",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "4",
+                "Id": 4,
                 "Name": "ごま油",
                 "Category": "seasoning",
                 "Amount": "小さじ1"
             },
             {
-                "Id": "5",
+                "Id": 5,
                 "Name": "にんにくチューブ",
                 "Category": "seasoning",
                 "Amount": "1-2センチ"
             },
             {
-                "Id": "6",
+                "Id": 6,
                 "Name": "豆苗",
                 "Category": "ingriedient",
                 "Amount": "1袋"
             },
             {
-                "Id": "7",
+                "Id": 7,
                 "Name": "ちくわ",
                 "Category": "ingriedient",
                 "Amount": "2本"
@@ -51,15 +51,15 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "豆苗とちくわを食べやすい長さに切ります"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "ボールにごま油、にんにく、しょうゆ、マヨネーズを入れてよく混ぜます"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "豆苗とちくわもボールの中に入れて混ぜます"
             }
         ]
@@ -72,43 +72,43 @@
         "Introduction": "家でもできるデパ地下グルメ！",
         "Ingridients": [
             {
-                "Id": "12",
+                "Id": 12,
                 "Name": "かぼちゃ",
                 "Category": "ingriedient",
                 "Amount": "1/2個"
             },
             {
-                "Id": "1",
+                "Id": 1,
                 "Name": "マヨネーズ",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "13",
+                "Id": 13,
                 "Name": "クリームチーズ",
                 "Category": "other",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "14",
+                "Id": 14,
                 "Name": "ヨーグルト",
                 "Category": "other",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "15",
+                "Id": 15,
                 "Name": "レーズン",
                 "Category": "other",
                 "Amount": "ひとつかみ（お好み）"
             },
             {
-                "Id": "16",
+                "Id": 16,
                 "Name": "スライスアーモンド",
                 "Category": "other",
                 "Amount": "ひとつかみ（お好み）"
             },
             {
-                "Id": "30",
+                "Id": 30,
                 "Name": "生くるみ",
                 "Category": "other",
                 "Amount": "ひとつかみ（お好み）"
@@ -116,19 +116,19 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "かぼちゃの種とワタを取り除いてからレンジで柔らかくする（1/4個で600W 4-5分くらい）"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "皮を剥き、マッシャーで潰します"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "かぼちゃのあら熱が取れたらマヨネーズ、クリームチーズ、ヨーグルトを入れて混ぜ合わせます"
             },
             {
-                "OrderNum": "4",
+                "OrderNum": 4,
                 "Text": "最後にお好みでレーズン、くるみまたはスライスアーモンドも混ぜて完成！"
             }
         ]
@@ -141,37 +141,37 @@
         "Introduction": "切って並べて煮込むだけで簡単に出来上がり！",
         "Ingridients": [
             {
-                "Id": "3",
+                "Id": 3,
                 "Name": "しょうゆ",
                 "Category": "seasoning",
                 "Amount": "大さじ2"
             },
             {
-                "Id": "8",
+                "Id": 8,
                 "Name": "酒",
                 "Category": "seasoning",
                 "Amount": "大さじ2"
             },
             {
-                "Id": "9",
+                "Id": 9,
                 "Name": "みりん",
                 "Category": "seasoning",
                 "Amount": "大さじ2"
             },
             {
-                "Id": "10",
+                "Id": 10,
                 "Name": "砂糖",
                 "Category": "seasoning",
                 "Amount": "大さじ2"
             },
             {
-                "Id": "11",
+                "Id": 11,
                 "Name": "水",
                 "Category": "seasoning",
                 "Amount": "200cc"
             },
             {
-                "Id": "12",
+                "Id": 12,
                 "Name": "かぼちゃ",
                 "Category": "ingriedient",
                 "Amount": "1/4個"
@@ -179,23 +179,23 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "かぼちゃの種とワタを取り除いて一口大に切る"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "鍋にかぼちゃを敷き詰めて、材料を全て鍋に投入"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "鍋を火にかけます。汁が沸騰したら弱火〜とろ火にして落とし蓋をします"
             },
             {
-                "OrderNum": "4",
+                "OrderNum": 4,
                 "Text": "さらに蓋をして十二分ほど煮込みます"
             },
             {
-                "OrderNum": "5",
+                "OrderNum": 5,
                 "Text": "火を止めた後、蓋をしたままで冷めるのを待ちます。触れるぐらいでOK"
             }
         ]
@@ -208,43 +208,43 @@
         "Introduction": "我が家の鉄板副菜！ぬめぬめにぬめぬめ",
         "Ingridients": [
             {
-                "Id": "17",
+                "Id": 17,
                 "Name": "オリーブオイル",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "18",
+                "Id": 18,
                 "Name": "ポン酢",
                 "Category": "seasoning",
                 "Amount": "大さじ1.5"
             },
             {
-                "Id": "19",
+                "Id": 19,
                 "Name": "レモン汁",
                 "Category": "seasoning",
                 "Amount": "大さじ0.5"
             },
             {
-                "Id": "20",
+                "Id": 20,
                 "Name": "塩",
                 "Category": "seasoning",
                 "Amount": "ふたつまみ（なくてもいい）"
             },
             {
-                "Id": "21",
+                "Id": 21,
                 "Name": "わかめ",
                 "Category": "ingriedient",
                 "Amount": "100g"
             },
             {
-                "Id": "22",
+                "Id": 22,
                 "Name": "ツナ缶",
                 "Category": "ingriedient",
                 "Amount": "1個（ノンオイルではなく普通のもの）"
             },
             {
-                "Id": "23",
+                "Id": 23,
                 "Name": "長芋",
                 "Category": "ingriedient",
                 "Amount": "5センチぐらい"
@@ -252,23 +252,23 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "わかめは食べやすい大きさに切る。乾燥わかめや塩蔵わかめは戻した後に水気を切っておく"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "長芋は皮を剥いて0.8センチぐらいで賽の目切りにする"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "わかめにツナ缶を汁ごと入れ、長芋とオリーブオイルも入れてよく混ぜる"
             },
             {
-                "OrderNum": "4",
+                "OrderNum": 4,
                 "Text": "よく混ざったらポン酢とレモン汁も投入"
             },
             {
-                "OrderNum": "5",
+                "OrderNum": 5,
                 "Text": "味が物足りなければ塩を足します"
             }
         ]
@@ -281,31 +281,31 @@
         "Introduction": "しりしり（＝千切り）は面倒だけどたくさんできるのでいっぱい食べられる",
         "Ingridients": [
             {
-                "Id": "4",
+                "Id": 4,
                 "Name": "ごま油",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "22",
+                "Id": 22,
                 "Name": "ツナ缶",
                 "Category": "ingriedient",
                 "Amount": "2個"
             },
             {
-                "Id": "24",
+                "Id": 24,
                 "Name": "卵",
                 "Category": "ingriedient",
                 "Amount": "1個"
             },
             {
-                "Id": "26",
+                "Id": 26,
                 "Name": "にんじん",
                 "Category": "ingriedient",
                 "Amount": "2本"
             },
             {
-                "Id": "25",
+                "Id": 25,
                 "Name": "めんつゆ",
                 "Category": "seasoning",
                 "Amount": "大さじ1と1/2"
@@ -313,19 +313,19 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "にんじん２本皮を剥いてしりしり（千切り）にします"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "フライパンにごま油を敷いて中火でにんじんを炒めます"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "にんじんがしんなりしたら水分を切ったツナ缶とめんつゆを入れて混ぜます"
             },
             {
-                "OrderNum": "4",
+                "OrderNum": 4,
                 "Text": "卵は溶き卵にして回し入れ、火を通します"
             }
         ]
@@ -338,37 +338,37 @@
         "Introduction": "調理に困理がちなピーマンがいつまでも食べていられるようになる！",
         "Ingridients": [
             {
-                "Id": "4",
+                "Id": 4,
                 "Name": "ごま油",
                 "Category": "seasoning",
                 "Amount": "大さじ1"
             },
             {
-                "Id": "22",
+                "Id": 22,
                 "Name": "ツナ缶",
                 "Category": "ingriedient",
                 "Amount": "1個"
             },
             {
-                "Id": "2",
+                "Id": 2,
                 "Name": "いりごま",
                 "Category": "seasoning",
                 "Amount": "小さじ１（お好みで）"
             },
             {
-                "Id": "28",
+                "Id": 28,
                 "Name": "鶏がらスープのもと",
                 "Category": "seasoning",
                 "Amount": "小さじ1"
             },
             {
-                "Id": "27",
+                "Id": 27,
                 "Name": "ピーマン",
                 "Category": "ingriedient",
                 "Amount": "5-8個"
             },
             {
-                "Id": "29",
+                "Id": 29,
                 "Name": "かつお節",
                 "Category": "seasoning",
                 "Amount": "ひとつまみ（お好みで）"
@@ -376,27 +376,27 @@
         ],
         "Procedures": [
             {
-                "OrderNum": "1",
+                "OrderNum": 1,
                 "Text": "ピーマンは厚さ5mmくらいの輪切りにして耐熱容器の中に入れる"
             },
             {
-                "OrderNum": "2",
+                "OrderNum": 2,
                 "Text": "容器の中に油を切ったツナ缶、ごま油、鶏がらスープのもとを入れてよく混ぜる"
             },
             {
-                "OrderNum": "3",
+                "OrderNum": 3,
                 "Text": "電子レンジで2分ほど加熱"
             },
             {
-                "OrderNum": "4",
+                "OrderNum": 4,
                 "Text": "ピーマンが生っぽくなければOK。時間が経てばしんなりします"
             },
             {
-                "OrderNum": "5",
+                "OrderNum": 5,
                 "Text": "まだ固い場合は容器の中身を混ぜてから再度加熱します"
             },
             {
-                "OrderNum": "6",
+                "OrderNum": 6,
                 "Text": "最後にごまとかつお節をかけて完成"
             }
         ]
