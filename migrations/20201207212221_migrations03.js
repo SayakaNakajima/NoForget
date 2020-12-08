@@ -42,7 +42,7 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    knex.schema
+    return knex.schema
         .dropTable("procedures")
         .dropTable("recipe_ingridient")
         .dropTable("ingridients")
