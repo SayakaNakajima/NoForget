@@ -3,11 +3,14 @@ import React from "react";
 export default function Logo(props) {
   return (
     <div className="logo">
-      <span
+      <div
         onClick={() => {
           props.changeMode("AllRecipes");
         }}
-      >ロゴ部分だよ</span>
+        className="logo-title"
+      >
+        NoForget!
+      </div>
     </div>
   );
 }

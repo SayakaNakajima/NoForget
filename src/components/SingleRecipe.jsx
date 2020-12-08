@@ -13,25 +13,24 @@ export default function SingleRecipe(props) {
       <div>{props.data.r_introduction}</div>
       <div>How to time : {props.data.r_time} min</div>
       <h2>Ingridients</h2>
-      <dl>
+      <dl className="ingridients">
           {ingridients.map((item, i) => {
             return (
               <>
                 <dt key={i}>{item.i_name}</dt>
-                <dd key={i}>{item.amount}</dd>
+                <dd>{item.amount}</dd>
               </>
           )})}
       </dl>
       <h2>Procedures</h2>
-      <dl>
+      <ul className="procedures">
           {procedures.map((item, i) => {
             return (
               <>
-                <dt key={i}>{item.p_order_num}</dt>
-                <dd key={i}>{item.p_text}</dd>
+                <li key={i}>{item.p_text}</li>
               </>
           )})}
-      </dl>
+      </ul>
       <div className="button-area">
           <button
             onClick={() => {

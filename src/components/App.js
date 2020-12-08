@@ -27,12 +27,14 @@ export default function App() {
   function AskChangeList() {
     if(stackStatus) {
       return (
-        <button
-          onClick={() => {
-            setMode("ShoppingList");
-            setStatus(false);
-          }}
-        >Make ShoppingList?</button>
+        <div className="make-list">
+          <button
+            onClick={() => {
+              setMode("ShoppingList");
+              setStatus(false);
+            }}
+          >Create ShoppingList?</button>
+        </div>
       )
     };
     return null;
@@ -89,13 +91,15 @@ export default function App() {
   return (
     <div className="App">
       <Logo changeMode={setMode} />
-      {viewMode === "AllRecipes" ? (
-        <AllRecipes list={recepiList} getId={setId} />
-      ) : viewMode === "SingleRecipe" ? (
-          <SingleRecipe data={recipeDetail} getStack={getStackLists} getMode={setMode} changeMode={setStatus} />
-      ) : (
-        <ShoppingList list={listToBuy} />
-      )}
+      <div className="main">
+        {viewMode === "AllRecipes" ? (
+          <AllRecipes list={recepiList} getId={setId} />
+        ) : viewMode === "SingleRecipe" ? (
+            <SingleRecipe data={recipeDetail} getStack={getStackLists} getMode={setMode} changeMode={setStatus} />
+        ) : (
+          <ShoppingList list={listToBuy} />
+        )}
+      </div>
       <AskChangeList />
     </div>
   );

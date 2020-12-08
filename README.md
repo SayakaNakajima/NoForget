@@ -3,6 +3,55 @@
 
 This was created during my time as a student at Code Chrysalis
 
+# How to use
+
+お買い物リスト作成アプリです
+レシピブックとしても使えます
+いくつかのレシピを選んだ後、すぐに材料のお買い物リストが作れます
+
+## Screen
+
+![Main](./img/screen01.png)
+基本画面です
+レシピ名か説明文をクリックするとレシピ詳細へ飛びます
+また、どのページでも、"NoForget!"ロゴをクリックするとこのページへ戻ります
+
+![Detail](./img/screen02.png)
+レシピ詳細ページです
+作りたいと思ったら"Make It For Dinner?"をクリックします
+クリック後は基本画面に戻ります
+
+![Jump](./img/screen03.png)
+"Make It For Dinner?"を一度でもクリックすると、
+画面下部に"Create ShoppingList?"ボタンが出てきます
+ボタンをクリックするまでは何度でもレシピを選べます
+
+![List](./img/screen04.png)
+![List02](./img/screen05.png)
+"Create ShoppingList?"ボタンをクリックするとお買い物リストが作成されます
+買ったものはどんどんクリックして消してください
+
+# API endpoint
+
+## GET /api/recipes
+全レシピのデータを取得します
+
+## GET /api/recipes?id=(NUM)
+単独レシピの詳細情報のみ取得します
+
+## GET /api/lists?id=(NUM1)_(NUM2)...
+レシピ内の"ingridients"のリストを取得します
+idの指定はそれぞれrecipesのidから、recipes同士で重複した場合も単独のアイテムのみ返します
+
+# Tech
+
+## Backend
+JavaScript, Node.js, express, knex, axios, PostgreSQL
+
+## Frontend
+React, CSS
+
+
 
 # Getting Started with Create React App
 

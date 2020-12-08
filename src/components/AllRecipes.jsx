@@ -8,15 +8,17 @@ export default function AllRecipes(props) {
         <div
             onClick={() => {
                props.getId(rec.r_id)
-            }
-        }>
+            }}
+            className="recipe-name"
+        >
             {rec.r_title}
         </div>
         <div
             onClick={() => {
             props.getId(rec.r_id)
-            }
-        }>
+            }}
+            className="recipe-description"
+        >
             {rec.r_introduction}
         </div>
       </li>
@@ -25,7 +27,6 @@ export default function AllRecipes(props) {
 
   return (
     <div className="recipes">
-      レシピが並ぶよ
       <ul>{recipeList}</ul>
     </div>
   );

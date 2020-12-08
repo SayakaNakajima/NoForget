@@ -27,3 +27,4 @@ yarn.lock
 /public
 knexfile.js
 memo.text
+.eslintcache
