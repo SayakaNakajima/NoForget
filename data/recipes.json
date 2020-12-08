@@ -39,13 +39,13 @@
             {
                 "Id": 6,
                 "Name": "豆苗",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1袋"
             },
             {
                 "Id": 7,
                 "Name": "ちくわ",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "2本"
             }
         ],
@@ -74,7 +74,7 @@
             {
                 "Id": 12,
                 "Name": "かぼちゃ",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1/2個"
             },
             {
@@ -173,7 +173,7 @@
             {
                 "Id": 12,
                 "Name": "かぼちゃ",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1/4個"
             }
         ],
@@ -234,19 +234,19 @@
             {
                 "Id": 21,
                 "Name": "わかめ",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "100g"
             },
             {
                 "Id": 22,
                 "Name": "ツナ缶",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1個（ノンオイルではなく普通のもの）"
             },
             {
                 "Id": 23,
                 "Name": "長芋",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "5センチぐらい"
             }
         ],
@@ -289,19 +289,19 @@
             {
                 "Id": 22,
                 "Name": "ツナ缶",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "2個"
             },
             {
                 "Id": 24,
                 "Name": "卵",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1個"
             },
             {
                 "Id": 26,
                 "Name": "にんじん",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "2本"
             },
             {
@@ -346,7 +346,7 @@
             {
                 "Id": 22,
                 "Name": "ツナ缶",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "1個"
             },
             {
@@ -364,7 +364,7 @@
             {
                 "Id": 27,
                 "Name": "ピーマン",
-                "Category": "ingriedient",
+                "Category": "ingridient",
                 "Amount": "5-8個"
             },
             {
