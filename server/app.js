@@ -59,7 +59,7 @@ app.get("/api/recipes", async (req, res) => {
       recipes = recipe;
     }
 
-    res.json(recipes);
+    res.status(200).json(recipes);
   } catch (err) {
   console.error("Error loading recipes!", err);
   res.sendStatus(500);

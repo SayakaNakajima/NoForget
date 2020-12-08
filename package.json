@@ -25,7 +25,8 @@
     "demonstart": "nodemon server",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "seed": "node data/import.js --exit"
+    "seed": "node data/import.js --exit",
+    "mochatest": "mocha --exit server/tests"
   },
   "eslintConfig": {
     "extends": [
