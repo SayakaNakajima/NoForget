@@ -2,32 +2,6 @@
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "http-proxy-middleware": "^1.0.6",
-    "knex": "^0.21.12",
-    "morgan": "^1.10.0",
-    "node-fetch": "^2.6.1",
-    "pg": "^8.5.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "demonstart": "nodemon server",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "seed": "node data/import.js --exit",
-    "mochatest": "mocha --exit server/tests"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -46,10 +20,41 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "http://localhost:9000",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "http-proxy-middleware": "^1.0.6",
+    "knex": "^0.21.12",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1",
+    "react": "^17.0.1",
+    "react-device-detect": "^1.14.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^0.2.4"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "demonstart": "nodemon server",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "seed": "node data/import.js --exit",
+    "mochatest": "mocha --exit server/tests"
   }
 }
