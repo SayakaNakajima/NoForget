@@ -1,7 +1,12 @@
 {
   "name": "noforget",
   "version": "0.1.0",
+  "repository": "github.com/SayakaNakajima/NoForget",
   "private": true,
+  "engines": {
+    "node": ">=9.10.0",
+    "yarn": ">=1.6.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -28,6 +33,7 @@
     "axios": "^0.21.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
     "knex": "^0.21.12",
     "morgan": "^1.10.0",
