@@ -51,9 +51,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "webpack",
     "startreact": "react-scripts start",
-    "buildreact": "react-scripts build",
+    "build": "react-scripts build",
     "demonstart": "nodemon server",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
