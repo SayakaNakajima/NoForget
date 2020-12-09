@@ -58,7 +58,6 @@
     "eject": "react-scripts eject",
     "migration": "knex migrate:latest",
     "seed": "node data/import.js --exit",
-    "heroku-postbuild": "yarn migration && yarn seed",
     "mochatest": "mocha --exit server/tests"
   }
 }
