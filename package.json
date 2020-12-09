@@ -50,7 +50,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node server/index.js",
     "startreact": "react-scripts start",
     "build": "react-scripts build",
     "demonstart": "nodemon server",
