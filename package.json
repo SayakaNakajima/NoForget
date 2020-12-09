@@ -51,8 +51,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod",
+    "build": "webpack",
     "startreact": "react-scripts start",
     "buildreact": "react-scripts build",
     "demonstart": "nodemon server",
