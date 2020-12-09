@@ -4,8 +4,8 @@
   "repository": "github.com/SayakaNakajima/NoForget",
   "private": true,
   "engines": {
-    "node": ">=9.10.0",
-    "yarn": ">=1.6.0"
+    "node": "12.x",
+    "yarn": "1.x"
   },
   "eslintConfig": {
     "extends": [
