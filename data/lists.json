@@ -1,0 +1,306 @@
+[
+  {
+    "recipe_id": 1,
+    "ingridient_id": 1,
+    "amount": "大さじ1",
+    "i_id": 1,
+    "i_name": "マヨネーズ",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 14,
+    "amount": "大さじ1",
+    "i_id": 14,
+    "i_name": "ヨーグルト",
+    "i_category": "other"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 9,
+    "amount": "大さじ2",
+    "i_id": 9,
+    "i_name": "みりん",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 22,
+    "amount": "1個（ノンオイルではなく普通のもの）",
+    "i_id": 22,
+    "i_name": "ツナ缶",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 2,
+    "amount": "小さじ１（お好みで）",
+    "i_id": 2,
+    "i_name": "いりごま",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 2,
+    "amount": "大さじ1",
+    "i_id": 2,
+    "i_name": "いりごま",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 15,
+    "amount": "ひとつかみ（お好み）",
+    "i_id": 15,
+    "i_name": "レーズン",
+    "i_category": "other"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 10,
+    "amount": "大さじ2",
+    "i_id": 10,
+    "i_name": "砂糖",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 23,
+    "amount": "5センチぐらい",
+    "i_id": 23,
+    "i_name": "長芋",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 28,
+    "amount": "小さじ1",
+    "i_id": 28,
+    "i_name": "鶏がらスープのもと",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 3,
+    "amount": "大さじ1",
+    "i_id": 3,
+    "i_name": "しょうゆ",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 8,
+    "amount": "大さじ2",
+    "i_id": 8,
+    "i_name": "酒",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 22,
+    "amount": "1個",
+    "i_id": 22,
+    "i_name": "ツナ缶",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 4,
+    "amount": "小さじ1",
+    "i_id": 4,
+    "i_name": "ごま油",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 16,
+    "amount": "ひとつかみ（お好み）",
+    "i_id": 16,
+    "i_name": "スライスアーモンド",
+    "i_category": "other"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 11,
+    "amount": "200cc",
+    "i_id": 11,
+    "i_name": "水",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 5,
+    "ingridient_id": 4,
+    "amount": "大さじ1",
+    "i_id": 4,
+    "i_name": "ごま油",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 27,
+    "amount": "5-8個",
+    "i_id": 27,
+    "i_name": "ピーマン",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 5,
+    "amount": "1-2センチ",
+    "i_id": 5,
+    "i_name": "にんにくチューブ",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 30,
+    "amount": "ひとつかみ（お好み）",
+    "i_id": 30,
+    "i_name": "生くるみ",
+    "i_category": "other"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 12,
+    "amount": "1/4個",
+    "i_id": 12,
+    "i_name": "かぼちゃ",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 5,
+    "ingridient_id": 22,
+    "amount": "2個",
+    "i_id": 22,
+    "i_name": "ツナ缶",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 29,
+    "amount": "ひとつまみ（お好みで）",
+    "i_id": 29,
+    "i_name": "かつお節",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 6,
+    "amount": "1袋",
+    "i_id": 6,
+    "i_name": "豆苗",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 3,
+    "ingridient_id": 3,
+    "amount": "大さじ2",
+    "i_id": 3,
+    "i_name": "しょうゆ",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 17,
+    "amount": "大さじ1",
+    "i_id": 17,
+    "i_name": "オリーブオイル",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 5,
+    "ingridient_id": 24,
+    "amount": "1個",
+    "i_id": 24,
+    "i_name": "卵",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 1,
+    "ingridient_id": 7,
+    "amount": "2本",
+    "i_id": 7,
+    "i_name": "ちくわ",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 20,
+    "amount": "ふたつまみ（なくてもいい）",
+    "i_id": 20,
+    "i_name": "塩",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 6,
+    "ingridient_id": 4,
+    "amount": "大さじ1",
+    "i_id": 4,
+    "i_name": "ごま油",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 12,
+    "amount": "1/2個",
+    "i_id": 12,
+    "i_name": "かぼちゃ",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 21,
+    "amount": "100g",
+    "i_id": 21,
+    "i_name": "わかめ",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 1,
+    "amount": "大さじ1",
+    "i_id": 1,
+    "i_name": "マヨネーズ",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 18,
+    "amount": "大さじ1.5",
+    "i_id": 18,
+    "i_name": "ポン酢",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 5,
+    "ingridient_id": 26,
+    "amount": "2本",
+    "i_id": 26,
+    "i_name": "にんじん",
+    "i_category": "ingridient"
+  },
+  {
+    "recipe_id": 2,
+    "ingridient_id": 13,
+    "amount": "大さじ1",
+    "i_id": 13,
+    "i_name": "クリームチーズ",
+    "i_category": "other"
+  },
+  {
+    "recipe_id": 4,
+    "ingridient_id": 19,
+    "amount": "大さじ0.5",
+    "i_id": 19,
+    "i_name": "レモン汁",
+    "i_category": "seasoning"
+  },
+  {
+    "recipe_id": 5,
+    "ingridient_id": 25,
+    "amount": "大さじ1と1/2",
+    "i_id": 25,
+    "i_name": "めんつゆ",
+    "i_category": "seasoning"
+  }
+]

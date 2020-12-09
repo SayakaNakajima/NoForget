@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const path = require("path");
 const db = require("./knex.js");
 const cors = require("cors");
-const Knex = require("knex");
+const fs = require("fs");
 
 const app = express();
 app.use(cors());
@@ -22,30 +22,7 @@ app.use(express.static(path.resolve(__dirname, "..", "build")));
 // create recipes!
 app.get("/api/recipes", async (req, res) => {
   try{
-    let recipes = await db.raw(`
-      WITH inglists AS (
-        SELECT ri.recipe_id, ri.ingridient_id, ri.amount, ing.i_name, ing.i_category
-        FROM recipe_ingridient AS ri
-        JOIN ingridients AS ing ON ri.ingridient_id = ing.i_id
-      ), 
-      allrecipes AS (
-        SELECT rec.*,
-        (
-          SELECT json_agg(il.*)
-          FROM inglists AS il
-          WHERE rec.r_id = il.recipe_id
-        ) AS ingridients,
-        (
-          SELECT json_agg(pro.*) 
-          FROM procedures AS pro
-          WHERE rec.r_id = pro.p_recipe_id
-        ) AS procedures
-        FROM recipes AS rec
-      ) 
-      SELECT to_json(allrecipes) AS recipes
-      FROM allrecipes;`);
-
-    recipes = recipes.rows;
+    const recipes = await JSON.parse(fs.readFileSync("./data/recipes.json"));
 
     if (req.query.id) {
       const queryId = Number(req.query.id);
@@ -69,11 +46,7 @@ app.get("/api/recipes", async (req, res) => {
 // Create Shopping list
 app.get("/api/lists", async (req, res) => {
   try{
-    const ingridients = await db.raw(`select ri.*, ing.*
-      from recipe_ingridient as ri
-      join (select * from ingridients) as ing
-      on ri.ingridient_id = ing.i_id;`);
-    let lists = ingridients.rows;
+    let lists = await JSON.parse(fs.readFileSync("./data/lists.json"));
 
     if (req.query.id) {
       const queryArray = req.query.id.split("_");
@@ -88,6 +61,7 @@ app.get("/api/lists", async (req, res) => {
       lists = results;
     }
 
+    console.log(lists);
     res.json(lists);
 
   } catch (err) {
