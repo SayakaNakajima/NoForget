@@ -3,12 +3,12 @@ const db = require("../server/knex.js");
 
 (async () => {
   try {
-    const recipes = JSON.parse(fs.readFileSync("./data/recipes.json"));
-
-    let [recipeCount] = await db("recipes").count("*");
-    let [ingridientCount] = await db("ingridients").count("*");
-    let [procedureCount] = await db("procedures").count("*");
-    let [recipe_ingridientCount] = await db("recipe_ingridient").count("*");
+    const recipes = await JSON.parse(fs.readFileSync("./data/recipes.json"));
+    
+    // let [recipeCount] = await db("recipes").count("*");
+    // let [ingridientCount] = await db("ingridients").count("*");
+    // let [procedureCount] = await db("procedures").count("*");
+    // let [recipe_ingridientCount] = await db("recipe_ingridient").count("*");
 
     await db("recipes").del;
     recipes.forEach(async (item) => {
@@ -19,7 +19,7 @@ const db = require("../server/knex.js");
         r_time : item.Time,
         r_introduction : item.Introduction
       }
-      await db("recipes").insert(oneRecipe);
+      return await db("recipes").insert(oneRecipe);
     });
     
     //// Insert Procedures Data
@@ -41,7 +41,7 @@ const db = require("../server/knex.js");
 
     //// Create Data in Database 
     procedures.forEach(async (item) => {
-      await db("procedures").insert({
+      return await db("procedures").insert({
         p_recipe_id: item.p_recipe_id,
         p_order_num: item.p_order_num,
         p_text: item.p_text,
@@ -71,7 +71,7 @@ const db = require("../server/knex.js");
 
     //// Create Data in Database 
     ingridients.forEach(async (item) => {
-      await db("ingridients").insert({
+      return await db("ingridients").insert({
         i_id: item.i_id,
         i_name: item.i_name,
         i_category: item.i_category,
@@ -95,14 +95,15 @@ const db = require("../server/knex.js");
     }
 
     ingridientInfos.forEach(async (item) => {
-      await db("recipe_ingridient").insert({
+      return await db("recipe_ingridient").insert({
         recipe_id: item.recipe_id,
         ingridient_id: item.ingridient_id,
         amount: item.amount,
       });
     });
 
-    console.log("Finished!");
+    console.log("Finished");
+    return;
 
   } catch (err) {
     console.error("Error inserting records", err);
