@@ -24,6 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 
 yarn.lock
-knexfile.js
 memo.text
 .eslintcache
